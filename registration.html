@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>registration</title>
+<style>
+div{
+width:700px;
+margin:0 auto;
+padding:20px;
+background-color:lavender;
+border-radius:20px;
+}
+table{
+border-spacing:15px;
+}
+</style>
+</head>
+<body>
+<body style="background-color:aqua;">
+<hr>
+<center><h1>Employee Registration Form</h2></center>
+<hr>
+<div>
+<form>
+<table>
+<tr>
+<td><label for="cname">Candidate name:</label></td>
+<td><input type="text"id="cname"placeholder="Name of candidate" size="20px" required></td>
+</tr> 
+<tr>
+<td><label for="mail">Email-id:</label></td>
+<td><input type="text" id="mail" placeholder="sample00@gmail.com"required></td>
+</tr>
+<td><label for="gender">Gender:</label></td>
+<td><input type="radio" name="gender">Male<br><input type="radio" name="gender" required>Female</td>
+</tr>
+<tr>
+<td><label for="dob">Date of birth:</label></td>
+<td><input type="date" id="dob" required></td>
+</tr>
+<tr>
+<td><label for="doj">Date of joining</label></td>
+<td><input type="date" id="doj"required></td>
+</tr>
+<tr>
+<td><label for="address">Address:</label></td>
+<td><textarea cols="20" rows="3" id="address" required></textarea></td>
+</tr>
+<tr>
+<td><label>Educational qualification</label></td>
+<td><select>
+<option>Courses</option>
+<option>Be.tech</option>
+<option>m.tech</option>
+<option>bsc</option>
+<option>m.com</option>
+<option>b.com</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label>No.of years of experience:</label></td>
+<td><select>
+<option>Years</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label for="phone" >Phone:</label></td>
+<td><input type="tel" id="phone" value="+91" size="15" required></td>
+</tr>
+<tr>
+<td><label for="skills">Skillsets:</label></td>
+<td><input type="checkbox" id="skills>Artificial intelligence<br><input type="checkbox" id="skills">data science<br><input type="checkbox" id="skills">internet of things<br><input type="checkbox" id="skills">computer science</td>
+</tr>
+<tr>
+<td><label for="my file">upload your file</label></td>
+<td><input type="file" id="my file"></td>
+<tr>
+</table>
+<center>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</center>
+<form>
+</div>
+</body>
+</html>
+
