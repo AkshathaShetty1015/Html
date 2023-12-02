@@ -1,0 +1,22 @@
+body{
+background-color:pink;
+padding:10 px;
+}
+h1{
+font-family:arial;
+color:red;
+border:5px solidblack;
+border-radius:10px;
+
+margin:0 auto;
+background-color:yellow;
+}
+
+div{
+margin:0 auto;
+border:5px solid blue;
+background-color:slateblue;
+width:500px;
+border-radius:10px;
+padding:20px;
+}
