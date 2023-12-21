@@ -1,0 +1,31 @@
+h1{
+	color:red;
+	background-color:white;
+	
+}
+h2{
+	color:white;
+}
+body{
+	background-color:lightblue;
+	color:black;
+	margin:0 auto;
+	padding:15px;
+}
+.BranchName{
+	color:red;
+	font-size:18px;
+	list-style-type:upper-roman;
+}
+.facCategory{
+	color:black;
+	font-size:15px;
+	background-color:lavender;
+	width:800px;
+	padding:18px;
+	border:solid maroon 3px;
+	border-radius:8px;
+}
+.qual{
+	font-size:10px;
+}
